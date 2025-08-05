@@ -5,140 +5,140 @@
 				What Our Clients Say
 			</h2>
 			<p class="text-xl text-gray-600 max-w-3xl mx-auto">
-				Don't just take our word for it. Here's what business leaders and entrepreneurs say about working with NovaForge Digital.
+				Hear from startups, SMEs, and enterprise clients who have transformed their businesses with Kceva's innovative digital solutions.
 			</p>
 		</div>
 		
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 			<!-- Testimonial 1 -->
-			<div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+			<div class="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
 				<div class="flex items-center mb-6">
-					<div class="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
-						S
+					<div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+						A
 					</div>
 					<div class="ml-4">
-						<h4 class="font-bold text-gray-900">Sarah Chen</h4>
-						<p class="text-gray-600 text-sm">CEO, TechStart Inc.</p>
+						<h4 class="font-bold text-gray-900">Alex Thompson</h4>
+						<p class="text-gray-600 text-sm">CTO, TechFlow Solutions</p>
 					</div>
 				</div>
 				<div class="text-yellow-400 mb-4">★★★★★</div>
 				<p class="text-gray-700 italic mb-4">
-					"NovaForge Digital transformed our outdated website into a modern, AI-powered platform that increased our leads by 280%. Their team's expertise in both design and development is unmatched."
+					"Kceva transformed our legacy system into a modern, AI-powered platform. Their expertise in cloud architecture and AI integration exceeded our expectations. ROI was achieved within 6 months."
 				</p>
 				<div class="text-sm text-gray-500">
-					Project: AI-Enhanced eCommerce Platform
+					Project: AI-Enhanced Enterprise Platform
 				</div>
 			</div>
 			
 			<!-- Testimonial 2 -->
-			<div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+			<div class="bg-gradient-to-br from-emerald-50 to-teal-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
 				<div class="flex items-center mb-6">
-					<div class="w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
-						M
+					<div class="w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+						S
 					</div>
 					<div class="ml-4">
-						<h4 class="font-bold text-gray-900">Marcus Rodriguez</h4>
-						<p class="text-gray-600 text-sm">Founder, FitLife App</p>
+						<h4 class="font-bold text-gray-900">Sarah Martinez</h4>
+						<p class="text-gray-600 text-sm">Founder, EcoCommerce</p>
 					</div>
 				</div>
 				<div class="text-yellow-400 mb-4">★★★★★</div>
 				<p class="text-gray-700 italic mb-4">
-					"The mobile app they built for us has over 50,000 downloads and a 4.8-star rating. Their attention to UX details and performance optimization is incredible."
+					"The e-commerce platform Kceva built for us handles thousands of transactions daily. Their attention to performance optimization and security is outstanding. Sales increased by 300%."
 				</p>
 				<div class="text-sm text-gray-500">
-					Project: Cross-Platform Fitness Mobile App
+					Project: Custom E-commerce Platform
 				</div>
 			</div>
 			
 			<!-- Testimonial 3 -->
-			<div class="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+			<div class="bg-gradient-to-br from-violet-50 to-purple-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
 				<div class="flex items-center mb-6">
-					<div class="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
-						E
+					<div class="w-12 h-12 bg-gradient-to-r from-violet-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+						M
 					</div>
 					<div class="ml-4">
-						<h4 class="font-bold text-gray-900">Emily Watson</h4>
-						<p class="text-gray-600 text-sm">Marketing Director, GrowthCo</p>
+						<h4 class="font-bold text-gray-900">Michael Chen</h4>
+						<p class="text-gray-600 text-sm">CEO, DataInsights Pro</p>
 					</div>
 				</div>
 				<div class="text-yellow-400 mb-4">★★★★★</div>
 				<p class="text-gray-700 italic mb-4">
-					"Their SEO and growth hacking strategies helped us rank #1 for our target keywords and triple our organic traffic in just 6 months. ROI was phenomenal."
+					"Their custom AI model training service revolutionized our data analysis capabilities. The predictive analytics now drive 80% of our strategic decisions with remarkable accuracy."
 				</p>
 				<div class="text-sm text-gray-500">
-					Project: Complete SEO & Growth Strategy
+					Project: Custom AI Model Development
 				</div>
 			</div>
 			
 			<!-- Testimonial 4 -->
-			<div class="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-				<div class="flex items-center mb-6">
-					<div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
-						D
-					</div>
-					<div class="ml-4">
-						<h4 class="font-bold text-gray-900">David Kim</h4>
-						<p class="text-gray-600 text-sm">CTO, InnovateLab</p>
-					</div>
-				</div>
-				<div class="text-yellow-400 mb-4">★★★★★</div>
-				<p class="text-gray-700 italic mb-4">
-					"The AI chatbot they developed handles 85% of our customer inquiries automatically, saving us thousands in support costs while improving customer satisfaction."
-				</p>
-				<div class="text-sm text-gray-500">
-					Project: Custom AI Customer Support System
-				</div>
-			</div>
-			
-			<!-- Testimonial 5 -->
 			<div class="bg-gradient-to-br from-orange-50 to-red-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
 				<div class="flex items-center mb-6">
 					<div class="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
 						L
 					</div>
 					<div class="ml-4">
-						<h4 class="font-bold text-gray-900">Lisa Thompson</h4>
-						<p class="text-gray-600 text-sm">Owner, Boutique Fashion</p>
+						<h4 class="font-bold text-gray-900">Lisa Rodriguez</h4>
+						<p class="text-gray-600 text-sm">Operations Director, HealthTech Inc</p>
 					</div>
 				</div>
 				<div class="text-yellow-400 mb-4">★★★★★</div>
 				<p class="text-gray-700 italic mb-4">
-					"From brand identity to a stunning eCommerce site, they delivered everything on time and within budget. Our online sales increased by 400% in the first quarter."
+					"The mobile app they developed has over 100,000 active users. Their expertise in React Native and backend integration delivered a seamless user experience across all platforms."
 				</p>
 				<div class="text-sm text-gray-500">
-					Project: Complete Brand & eCommerce Solution
+					Project: Cross-Platform Healthcare App
+				</div>
+			</div>
+			
+			<!-- Testimonial 5 -->
+			<div class="bg-gradient-to-br from-pink-50 to-rose-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+				<div class="flex items-center mb-6">
+					<div class="w-12 h-12 bg-gradient-to-r from-pink-500 to-rose-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+						D
+					</div>
+					<div class="ml-4">
+						<h4 class="font-bold text-gray-900">David Kumar</h4>
+						<p class="text-gray-600 text-sm">VP Engineering, FinanceFlow</p>
+					</div>
+				</div>
+				<div class="text-yellow-400 mb-4">★★★★★</div>
+				<p class="text-gray-700 italic mb-4">
+					"Their DevOps and cloud infrastructure setup reduced our deployment time by 90%. The automated CI/CD pipelines and monitoring systems are world-class."
+				</p>
+				<div class="text-sm text-gray-500">
+					Project: Cloud Infrastructure & DevOps
 				</div>
 			</div>
 			
 			<!-- Testimonial 6 -->
-			<div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+			<div class="bg-gradient-to-br from-indigo-50 to-blue-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
 				<div class="flex items-center mb-6">
-					<div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
-						J
+					<div class="w-12 h-12 bg-gradient-to-r from-indigo-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+						R
 					</div>
 					<div class="ml-4">
-						<h4 class="font-bold text-gray-900">James Wilson</h4>
-						<p class="text-gray-600 text-sm">VP Technology, FinanceFlow</p>
+						<h4 class="font-bold text-gray-900">Rachel Foster</h4>
+						<p class="text-gray-600 text-sm">Founder, StartupLaunch</p>
 					</div>
 				</div>
 				<div class="text-yellow-400 mb-4">★★★★★</div>
 				<p class="text-gray-700 italic mb-4">
-					"Their digital strategy consulting helped us identify new market opportunities and optimize our tech stack. The ROI analysis they provided was spot-on."
+					"From MVP to full SaaS platform, Kceva guided us through every step. Their strategic consulting and technical expertise were instrumental in our successful Series A funding."
 				</p>
 				<div class="text-sm text-gray-500">
-					Project: Digital Transformation Strategy
+					Project: SaaS Platform Development
 				</div>
 			</div>
 		</div>
 		
 		<!-- Trust Logos -->
 		<div class="mt-16 text-center">
-			<p class="text-gray-600 mb-8">Trusted by companies of all sizes</p>
+			<p class="text-gray-600 mb-8">Trusted by innovative companies worldwide</p>
 			<div class="flex justify-center items-center space-x-12 opacity-60">
-				<div class="text-2xl font-bold text-gray-400">TechStart</div>
-				<div class="text-2xl font-bold text-gray-400">FitLife</div>
-				<div class="text-2xl font-bold text-gray-400">GrowthCo</div>
-				<div class="text-2xl font-bold text-gray-400">InnovateLab</div>
+				<div class="text-2xl font-bold text-gray-400">TechFlow</div>
+				<div class="text-2xl font-bold text-gray-400">EcoCommerce</div>
+				<div class="text-2xl font-bold text-gray-400">DataInsights</div>
+				<div class="text-2xl font-bold text-gray-400">HealthTech</div>
 				<div class="text-2xl font-bold text-gray-400">FinanceFlow</div>
 			</div>
 		</div>

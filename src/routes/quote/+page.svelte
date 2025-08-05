@@ -18,7 +18,7 @@
 		// Step 3: Technical Requirements
 		platforms: [],
 		integrations: [],
-		designNeeds: '',
+		aiRequirements: '',
 		
 		// Step 4: Contact Info
 		name: '',
@@ -28,27 +28,36 @@
 	};
 	
 	const serviceOptions = [
+		{ id: 'ai-integration', label: 'AI Integration', icon: '🤖' },
+		{ id: 'ai-training', label: 'Custom AI Model Training', icon: '🧠' },
 		{ id: 'website', label: 'Website Development', icon: '🌐' },
 		{ id: 'mobile', label: 'Mobile App Development', icon: '📱' },
-		{ id: 'ai', label: 'AI-Powered Tools', icon: '🤖' },
-		{ id: 'design', label: 'UI/UX Design', icon: '🎨' },
-		{ id: 'seo', label: 'SEO & Growth', icon: '📈' },
-		{ id: 'strategy', label: 'Digital Strategy', icon: '💡' }
+		{ id: 'cloud', label: 'Cloud & DevOps Solutions', icon: '☁️' },
+		{ id: 'ecommerce', label: 'E-commerce Platform', icon: '🛒' },
+		{ id: 'saas', label: 'SaaS Development', icon: '💻' },
+		{ id: 'automation', label: 'Automation Tools', icon: '⚙️' },
+		{ id: 'api', label: 'API Development', icon: '🔗' },
+		{ id: 'consulting', label: 'Digital Strategy Consulting', icon: '💡' }
 	];
 	
 	const featureOptions = [
-		'User Authentication', 'Payment Processing', 'Admin Dashboard', 'API Integration',
-		'Real-time Chat', 'Push Notifications', 'Analytics', 'Multi-language Support',
-		'Social Media Integration', 'Content Management', 'Search Functionality', 'File Upload'
+		'AI Chatbot', 'Predictive Analytics', 'User Authentication', 'Payment Processing', 
+		'Admin Dashboard', 'API Integration', 'Real-time Chat', 'Push Notifications', 
+		'Analytics & Reporting', 'Multi-language Support', 'Social Media Integration', 
+		'Content Management', 'Search Functionality', 'File Upload', 'Document Processing',
+		'Computer Vision', 'Natural Language Processing', 'Machine Learning Models'
 	];
 	
 	const platformOptions = [
-		'Web (Desktop)', 'Web (Mobile)', 'iOS App', 'Android App', 'Progressive Web App'
+		'Web Application', 'iOS App', 'Android App', 'Progressive Web App', 
+		'Desktop Application', 'API/Backend Only'
 	];
 	
 	const integrationOptions = [
-		'Payment Gateways', 'CRM Systems', 'Email Marketing', 'Social Media APIs',
-		'Analytics Tools', 'Cloud Storage', 'Third-party APIs', 'Database Systems'
+		'Payment Gateways (Stripe, PayPal)', 'CRM Systems (Salesforce, HubSpot)', 
+		'Email Marketing (Mailchimp, SendGrid)', 'Social Media APIs', 'Analytics Tools (Google Analytics)', 
+		'Cloud Storage (AWS S3, Google Cloud)', 'Third-party APIs', 'Database Systems',
+		'AI/ML Services (OpenAI, Google AI)', 'Communication APIs (Twilio, SendBird)'
 	];
 	
 	function nextStep() {
@@ -117,19 +126,20 @@
 </script>
 
 <svelte:head>
-	<title>Get Quote - NovaForge Digital | Free Project Estimate</title>
-	<meta name="description" content="Get a free, detailed quote for your digital project. Custom estimates for web development, mobile apps, AI tools, and more from NovaForge Digital." />
+	<title>Get Quote - Kceva | Free Digital Solutions Project Estimate</title>
+	<meta name="description" content="Get a free, detailed quote for your digital transformation project. Custom estimates for AI integration, cloud solutions, web development, mobile apps, and more from Kceva." />
+	<meta name="keywords" content="Kceva quote, digital solutions estimate, AI integration cost, cloud solutions pricing, custom development quote" />
 </svelte:head>
 
 <main class="min-h-screen bg-gray-50">
 	<!-- Hero Section -->
-	<section class="py-20 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
+	<section class="py-20 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
 		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 			<h1 class="text-5xl md:text-6xl font-bold mb-6">
 				Get Your Free Quote
 			</h1>
 			<p class="text-xl text-gray-300 mb-8">
-				Tell us about your project and receive a detailed, custom quote within 24 hours.
+				Tell us about your digital transformation project and receive a detailed, custom quote within 24 hours.
 			</p>
 			
 			<!-- Progress Bar -->
@@ -138,7 +148,7 @@
 					{#each Array(totalSteps) as _, i}
 						<div class="flex items-center">
 							<div class="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold
-								{currentStep > i + 1 ? 'bg-green-500' : currentStep === i + 1 ? 'bg-indigo-500' : 'bg-gray-600'}">
+								{currentStep > i + 1 ? 'bg-green-500' : currentStep === i + 1 ? 'bg-blue-500' : 'bg-gray-600'}">
 								{currentStep > i + 1 ? '✓' : i + 1}
 							</div>
 							{#if i < totalSteps - 1}
@@ -169,50 +179,50 @@
 							<h3 class="text-xl font-semibold text-gray-900 mb-4">Primary Project Type</h3>
 							<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 								<label class="cursor-pointer">
-									<input type="radio" bind:group={formData.projectType} value="new-website" class="sr-only">
-									<div class="p-6 border-2 rounded-xl transition-all {formData.projectType === 'new-website' ? 'border-indigo-500 bg-indigo-50' : 'border-gray-200 hover:border-gray-300'}">
-										<div class="text-2xl mb-2">🌐</div>
-										<h4 class="font-semibold text-gray-900">New Website</h4>
-										<p class="text-sm text-gray-600">Build a new website from scratch</p>
+									<input type="radio" bind:group={formData.projectType} value="ai-transformation" class="sr-only">
+									<div class="p-6 border-2 rounded-xl transition-all {formData.projectType === 'ai-transformation' ? 'border-blue-500 bg-blue-50' : 'border-gray-200 hover:border-gray-300'}">
+										<div class="text-2xl mb-2">🤖</div>
+										<h4 class="font-semibold text-gray-900">AI Transformation</h4>
+										<p class="text-sm text-gray-600">Integrate AI into existing systems</p>
 									</div>
 								</label>
 								
 								<label class="cursor-pointer">
-									<input type="radio" bind:group={formData.projectType} value="website-redesign" class="sr-only">
-									<div class="p-6 border-2 rounded-xl transition-all {formData.projectType === 'website-redesign' ? 'border-indigo-500 bg-indigo-50' : 'border-gray-200 hover:border-gray-300'}">
-										<div class="text-2xl mb-2">🔄</div>
-										<h4 class="font-semibold text-gray-900">Website Redesign</h4>
-										<p class="text-sm text-gray-600">Redesign existing website</p>
-									</div>
-								</label>
-								
-								<label class="cursor-pointer">
-									<input type="radio" bind:group={formData.projectType} value="mobile-app" class="sr-only">
-									<div class="p-6 border-2 rounded-xl transition-all {formData.projectType === 'mobile-app' ? 'border-indigo-500 bg-indigo-50' : 'border-gray-200 hover:border-gray-300'}">
-										<div class="text-2xl mb-2">📱</div>
-										<h4 class="font-semibold text-gray-900">Mobile App</h4>
-										<p class="text-sm text-gray-600">iOS, Android, or cross-platform app</p>
-									</div>
-								</label>
-								
-								<label class="cursor-pointer">
-									<input type="radio" bind:group={formData.projectType} value="web-app" class="sr-only">
-									<div class="p-6 border-2 rounded-xl transition-all {formData.projectType === 'web-app' ? 'border-indigo-500 bg-indigo-50' : 'border-gray-200 hover:border-gray-300'}">
+									<input type="radio" bind:group={formData.projectType} value="new-application" class="sr-only">
+									<div class="p-6 border-2 rounded-xl transition-all {formData.projectType === 'new-application' ? 'border-blue-500 bg-blue-50' : 'border-gray-200 hover:border-gray-300'}">
 										<div class="text-2xl mb-2">💻</div>
-										<h4 class="font-semibold text-gray-900">Web Application</h4>
-										<p class="text-sm text-gray-600">Complex web-based application</p>
+										<h4 class="font-semibold text-gray-900">New Application</h4>
+										<p class="text-sm text-gray-600">Build from scratch</p>
+									</div>
+								</label>
+								
+								<label class="cursor-pointer">
+									<input type="radio" bind:group={formData.projectType} value="cloud-migration" class="sr-only">
+									<div class="p-6 border-2 rounded-xl transition-all {formData.projectType === 'cloud-migration' ? 'border-blue-500 bg-blue-50' : 'border-gray-200 hover:border-gray-300'}">
+										<div class="text-2xl mb-2">☁️</div>
+										<h4 class="font-semibold text-gray-900">Cloud Migration</h4>
+										<p class="text-sm text-gray-600">Move to cloud infrastructure</p>
+									</div>
+								</label>
+								
+								<label class="cursor-pointer">
+									<input type="radio" bind:group={formData.projectType} value="system-modernization" class="sr-only">
+									<div class="p-6 border-2 rounded-xl transition-all {formData.projectType === 'system-modernization' ? 'border-blue-500 bg-blue-50' : 'border-gray-200 hover:border-gray-300'}">
+										<div class="text-2xl mb-2">🔄</div>
+										<h4 class="font-semibold text-gray-900">System Modernization</h4>
+										<p class="text-sm text-gray-600">Upgrade existing systems</p>
 									</div>
 								</label>
 							</div>
 						</div>
 						
 						<div>
-							<h3 class="text-xl font-semibold text-gray-900 mb-4">Additional Services Needed</h3>
+							<h3 class="text-xl font-semibold text-gray-900 mb-4">Services Needed</h3>
 							<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 								{#each serviceOptions as service}
 									<label class="cursor-pointer">
 										<input type="checkbox" class="sr-only" on:change={() => toggleService(service.id)}>
-										<div class="p-4 border-2 rounded-xl transition-all {formData.services.includes(service.id) ? 'border-indigo-500 bg-indigo-50' : 'border-gray-200 hover:border-gray-300'}">
+										<div class="p-4 border-2 rounded-xl transition-all {formData.services.includes(service.id) ? 'border-blue-500 bg-blue-50' : 'border-gray-200 hover:border-gray-300'}">
 											<div class="text-xl mb-2">{service.icon}</div>
 											<h4 class="font-semibold text-gray-900 text-sm">{service.label}</h4>
 										</div>
@@ -237,18 +247,18 @@
 								id="description" 
 								bind:value={formData.description}
 								rows="6"
-								class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all resize-none"
-								placeholder="Describe your project goals, target audience, key features, and any specific requirements..."
+								class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none"
+								placeholder="Describe your project goals, current challenges, target audience, and how you envision AI or digital solutions transforming your business..."
 							></textarea>
 						</div>
 						
 						<div>
-							<h3 class="text-lg font-semibold text-gray-900 mb-4">Key Features (Select all that apply)</h3>
+							<h3 class="text-lg font-semibold text-gray-900 mb-4">Key Features & Capabilities (Select all that apply)</h3>
 							<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
 								{#each featureOptions as feature}
 									<label class="cursor-pointer">
 										<input type="checkbox" class="sr-only" on:change={() => toggleFeature(feature)}>
-										<div class="p-3 border-2 rounded-lg text-sm transition-all {formData.features.includes(feature) ? 'border-indigo-500 bg-indigo-50 text-indigo-700' : 'border-gray-200 hover:border-gray-300'}">
+										<div class="p-3 border-2 rounded-lg text-sm transition-all {formData.features.includes(feature) ? 'border-blue-500 bg-blue-50 text-blue-700' : 'border-gray-200 hover:border-gray-300'}">
 											{feature}
 										</div>
 									</label>
@@ -262,11 +272,11 @@
 								<select 
 									id="timeline" 
 									bind:value={formData.timeline}
-									class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
+									class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
 								>
 									<option value="">Select timeline</option>
-									<option value="asap">ASAP (Rush job)</option>
-									<option value="1-2months">1-2 months</option>
+									<option value="asap">ASAP (Rush project)</option>
+									<option value="1-3months">1-3 months</option>
 									<option value="3-6months">3-6 months</option>
 									<option value="6months+">6+ months</option>
 									<option value="flexible">Flexible</option>
@@ -278,15 +288,15 @@
 								<select 
 									id="budget" 
 									bind:value={formData.budget}
-									class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
+									class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
 								>
 									<option value="">Select budget range</option>
-									<option value="under-5k">Under $5,000</option>
-									<option value="5k-10k">$5,000 - $10,000</option>
 									<option value="10k-25k">$10,000 - $25,000</option>
 									<option value="25k-50k">$25,000 - $50,000</option>
 									<option value="50k-100k">$50,000 - $100,000</option>
-									<option value="100k+">$100,000+</option>
+									<option value="100k-250k">$100,000 - $250,000</option>
+									<option value="250k-500k">$250,000 - $500,000</option>
+									<option value="500k+">$500,000+</option>
 									<option value="discuss">Let's discuss</option>
 								</select>
 							</div>
@@ -308,7 +318,7 @@
 								{#each platformOptions as platform}
 									<label class="cursor-pointer">
 										<input type="checkbox" class="sr-only" on:change={() => togglePlatform(platform)}>
-										<div class="p-4 border-2 rounded-xl transition-all {formData.platforms.includes(platform) ? 'border-indigo-500 bg-indigo-50' : 'border-gray-200 hover:border-gray-300'}">
+										<div class="p-4 border-2 rounded-xl transition-all {formData.platforms.includes(platform) ? 'border-blue-500 bg-blue-50' : 'border-gray-200 hover:border-gray-300'}">
 											<h4 class="font-semibold text-gray-900">{platform}</h4>
 										</div>
 									</label>
@@ -318,11 +328,11 @@
 						
 						<div>
 							<h3 class="text-lg font-semibold text-gray-900 mb-4">Required Integrations</h3>
-							<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+							<div class="grid grid-cols-1 md:grid-cols-2 gap-3">
 								{#each integrationOptions as integration}
 									<label class="cursor-pointer">
 										<input type="checkbox" class="sr-only" on:change={() => toggleIntegration(integration)}>
-										<div class="p-3 border-2 rounded-lg text-sm transition-all {formData.integrations.includes(integration) ? 'border-indigo-500 bg-indigo-50 text-indigo-700' : 'border-gray-200 hover:border-gray-300'}">
+										<div class="p-3 border-2 rounded-lg text-sm transition-all {formData.integrations.includes(integration) ? 'border-blue-500 bg-blue-50 text-blue-700' : 'border-gray-200 hover:border-gray-300'}">
 											{integration}
 										</div>
 									</label>
@@ -331,17 +341,20 @@
 						</div>
 						
 						<div>
-							<label for="designNeeds" class="block text-lg font-semibold text-gray-900 mb-4">Design Requirements</label>
+							<label for="aiRequirements" class="block text-lg font-semibold text-gray-900 mb-4">AI/ML Requirements</label>
 							<select 
-								id="designNeeds" 
-								bind:value={formData.designNeeds}
-								class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
+								id="aiRequirements" 
+								bind:value={formData.aiRequirements}
+								class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
 							>
-								<option value="">Select design needs</option>
-								<option value="full-design">Full UI/UX Design</option>
-								<option value="design-refresh">Design Refresh/Update</option>
-								<option value="have-designs">I have existing designs</option>
-								<option value="minimal-design">Minimal design needed</option>
+								<option value="">Select AI requirements</option>
+								<option value="basic-chatbot">Basic Chatbot</option>
+								<option value="advanced-ai">Advanced AI Integration</option>
+								<option value="custom-models">Custom Model Training</option>
+								<option value="computer-vision">Computer Vision</option>
+								<option value="nlp">Natural Language Processing</option>
+								<option value="predictive-analytics">Predictive Analytics</option>
+								<option value="no-ai">No AI needed</option>
 								<option value="not-sure">Not sure yet</option>
 							</select>
 						</div>
@@ -363,7 +376,7 @@
 									type="text" 
 									id="name" 
 									bind:value={formData.name}
-									class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
+									class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
 									placeholder="John Doe"
 								>
 							</div>
@@ -373,7 +386,7 @@
 									type="email" 
 									id="email" 
 									bind:value={formData.email}
-									class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
+									class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
 									placeholder="john@company.com"
 								>
 							</div>
@@ -386,7 +399,7 @@
 									type="text" 
 									id="company" 
 									bind:value={formData.company}
-									class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
+									class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
 									placeholder="Your Company"
 								>
 							</div>
@@ -396,13 +409,13 @@
 									type="tel" 
 									id="phone" 
 									bind:value={formData.phone}
-									class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
+									class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
 									placeholder="+1 (555) 123-4567"
 								>
 							</div>
 						</div>
 						
-						<div class="bg-gradient-to-r from-indigo-50 to-purple-50 p-6 rounded-2xl">
+						<div class="bg-gradient-to-r from-blue-50 to-cyan-50 p-6 rounded-2xl">
 							<h3 class="font-bold text-gray-900 mb-2">What happens next?</h3>
 							<ul class="space-y-2 text-gray-600">
 								<li class="flex items-center">
@@ -411,15 +424,15 @@
 								</li>
 								<li class="flex items-center">
 									<span class="text-green-500 mr-2">✓</span>
-									You'll receive a detailed quote and project timeline
+									You'll receive a detailed quote with project timeline
 								</li>
 								<li class="flex items-center">
 									<span class="text-green-500 mr-2">✓</span>
-									We'll schedule a free consultation call
+									We'll schedule a free strategy consultation call
 								</li>
 								<li class="flex items-center">
 									<span class="text-green-500 mr-2">✓</span>
-									No obligation - you're free to explore other options
+									No obligation - explore your options freely
 								</li>
 							</ul>
 						</div>
@@ -444,7 +457,7 @@
 						<button 
 							on:click={nextStep}
 							disabled={!canProceed()}
-							class="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white rounded-lg font-semibold transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+							class="px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white rounded-lg font-semibold transition-all disabled:opacity-50 disabled:cursor-not-allowed"
 						>
 							Next →
 						</button>
@@ -452,7 +465,7 @@
 						<button 
 							on:click={submitForm}
 							disabled={!canProceed()}
-							class="px-8 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white rounded-lg font-semibold transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+							class="px-8 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white rounded-lg font-semibold transition-all disabled:opacity-50 disabled:cursor-not-allowed"
 						>
 							Get My Quote
 						</button>

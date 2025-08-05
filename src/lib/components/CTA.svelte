@@ -1,26 +1,26 @@
-<section class="py-20 bg-gradient-to-br from-indigo-900 via-purple-900 to-slate-900 relative overflow-hidden">
+<section class="py-20 bg-gradient-to-br from-blue-900 via-indigo-900 to-slate-900 relative overflow-hidden">
 	<!-- Background elements -->
 	<div class="absolute inset-0 opacity-10">
-		<div class="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
+		<div class="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
 		<div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-1000"></div>
 	</div>
 	
 	<div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 		<h2 class="text-4xl md:text-6xl font-bold text-white mb-6">
-			Ready to Build Your
-			<span class="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-				Digital Empire?
+			Ready to Transform Your
+			<span class="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+				Digital Future?
 			</span>
 		</h2>
 		
 		<p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-			Join 200+ successful businesses who've transformed their digital presence with NovaForge Digital. 
+			Join 100+ successful businesses who've accelerated their growth with Kceva's cutting-edge digital solutions. 
 			Let's turn your vision into reality.
 		</p>
 		
 		<div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
 			<a href="/quote" 
-				class="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+				class="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
 				Get Free Consultation
 			</a>
 			<a href="/portfolio" 
@@ -33,7 +33,7 @@
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
 			<div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
 				<div class="text-3xl font-bold text-white mb-2">Free</div>
-				<div class="text-gray-300">Initial Consultation</div>
+				<div class="text-gray-300">Strategy Consultation</div>
 			</div>
 			<div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
 				<div class="text-3xl font-bold text-white mb-2">24h</div>
@@ -47,8 +47,8 @@
 		
 		<!-- Contact info -->
 		<div class="mt-12 text-gray-400">
-			<p class="mb-2">Questions? Call us at <a href="tel:+1234567890" class="text-white hover:text-indigo-400 transition-colors">+1 (234) 567-8900</a></p>
-			<p>Or email <a href="mailto:hello@novaforge.digital" class="text-white hover:text-indigo-400 transition-colors">hello@novaforge.digital</a></p>
+			<p class="mb-2">Questions? Call us at <a href="tel:+1234567890" class="text-white hover:text-blue-400 transition-colors">+1 (234) 567-8900</a></p>
+			<p>Or email <a href="mailto:hello@kceva.com" class="text-white hover:text-blue-400 transition-colors">hello@kceva.com</a></p>
 		</div>
 	</div>
 </section>
