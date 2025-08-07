@@ -292,28 +292,32 @@
 	<section class="py-20 bg-gray-50">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="text-center mb-16">
-				<h2 class="text-4xl font-bold text-gray-900 mb-6">Our Impact in Numbers</h2>
+				<h2 class="text-4xl font-bold text-gray-900 mb-6">Our Focus Areas</h2>
 				<p class="text-xl text-gray-600 max-w-3xl mx-auto">
-					These results demonstrate the tangible value we deliver to our clients across various industries.
+					We specialize in delivering high-quality solutions across key technology domains.
 				</p>
 			</div>
 			
 			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-				<div class="bg-white p-8 rounded-2xl shadow-lg text-center">
-					<div class="text-4xl font-bold text-blue-600 mb-2">100+</div>
-					<div class="text-gray-600">Projects Completed</div>
+				<div class="bg-white p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
+					<div class="text-4xl mb-4">🤖</div>
+					<div class="text-gray-900 font-semibold">AI Integration</div>
+					<div class="text-gray-600 text-sm mt-2">Smart automation solutions</div>
 				</div>
-				<div class="bg-white p-8 rounded-2xl shadow-lg text-center">
-					<div class="text-4xl font-bold text-emerald-600 mb-2">$50M+</div>
-					<div class="text-gray-600">Client Revenue Generated</div>
+				<div class="bg-white p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
+					<div class="text-4xl mb-4">☁️</div>
+					<div class="text-gray-900 font-semibold">Cloud Solutions</div>
+					<div class="text-gray-600 text-sm mt-2">Scalable infrastructure</div>
 				</div>
-				<div class="bg-white p-8 rounded-2xl shadow-lg text-center">
-					<div class="text-4xl font-bold text-violet-600 mb-2">99.9%</div>
-					<div class="text-gray-600">Average Uptime</div>
+				<div class="bg-white p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
+					<div class="text-4xl mb-4">💻</div>
+					<div class="text-gray-900 font-semibold">Web Development</div>
+					<div class="text-gray-600 text-sm mt-2">Modern applications</div>
 				</div>
-				<div class="bg-white p-8 rounded-2xl shadow-lg text-center">
-					<div class="text-4xl font-bold text-orange-600 mb-2">24/7</div>
-					<div class="text-gray-600">Support & Monitoring</div>
+				<div class="bg-white p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
+					<div class="text-4xl mb-4">📱</div>
+					<div class="text-gray-900 font-semibold">Mobile Apps</div>
+					<div class="text-gray-600 text-sm mt-2">Cross-platform solutions</div>
 				</div>
 			</div>
 		</div>

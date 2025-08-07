@@ -239,23 +239,23 @@
 					
 					<!-- Quick Stats -->
 					<div class="bg-white p-6 rounded-2xl shadow-lg">
-						<h4 class="font-bold text-gray-900 mb-4">Why Choose Kceva?</h4>
-						<div class="grid grid-cols-2 gap-4 text-center">
-							<div>
-								<div class="text-2xl font-bold text-blue-600">100+</div>
-								<div class="text-sm text-gray-600">Projects</div>
+						<h4 class="font-bold text-gray-900 mb-4">Our Expertise</h4>
+						<div class="space-y-3">
+							<div class="flex items-center">
+								<div class="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
+								<span class="text-gray-700">AI & Machine Learning</span>
 							</div>
-							<div>
-								<div class="text-2xl font-bold text-emerald-600">99%</div>
-								<div class="text-sm text-gray-600">Satisfaction</div>
+							<div class="flex items-center">
+								<div class="w-3 h-3 bg-emerald-500 rounded-full mr-3"></div>
+								<span class="text-gray-700">Cloud Architecture</span>
 							</div>
-							<div>
-								<div class="text-2xl font-bold text-violet-600">24/7</div>
-								<div class="text-sm text-gray-600">Support</div>
+							<div class="flex items-center">
+								<div class="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
+								<span class="text-gray-700">Custom Development</span>
 							</div>
-							<div>
-								<div class="text-2xl font-bold text-orange-600">5.0</div>
-								<div class="text-sm text-gray-600">Rating</div>
+							<div class="flex items-center">
+								<div class="w-3 h-3 bg-orange-500 rounded-full mr-3"></div>
+								<span class="text-gray-700">Digital Strategy</span>
 							</div>
 						</div>
 					</div>

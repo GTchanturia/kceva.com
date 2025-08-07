@@ -54,14 +54,13 @@
 			
 			<!-- Trust indicators -->
 			<div class="pt-12 text-gray-400">
-				<p class="text-sm mb-4">Trusted by startups, SMEs, and enterprise clients worldwide</p>
+				<p class="text-sm mb-4">Innovative digital solutions for modern businesses</p>
 				<div class="flex justify-center items-center space-x-8 opacity-60">
-					<div class="text-2xl font-bold">★★★★★</div>
-					<div class="text-sm">5.0 Rating</div>
+					<div class="text-sm">AI Integration</div>
 					<div class="text-sm">|</div>
-					<div class="text-sm">100+ Projects</div>
+					<div class="text-sm">Cloud Solutions</div>
 					<div class="text-sm">|</div>
-					<div class="text-sm">24/7 Support</div>
+					<div class="text-sm">Custom Development</div>
 				</div>
 			</div>
 		</div>

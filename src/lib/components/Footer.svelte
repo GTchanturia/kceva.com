@@ -114,14 +114,18 @@
 		</div>
 		
 		<!-- Bottom -->
-		<div class="mt-12 pt-8 border-t border-gray-800 flex flex-col lg:flex-row justify-between items-center">
-			<div class="text-gray-400 text-sm">
-				© 2024 Kceva. All rights reserved.
-			</div>
-			<div class="mt-4 lg:mt-0 flex space-x-6 text-sm text-gray-400">
-				<a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
-				<a href="#" class="hover:text-white transition-colors">Terms of Service</a>
-				<a href="#" class="hover:text-white transition-colors">Cookie Policy</a>
+		<div class="mt-16 text-center">
+			<p class="text-gray-600 mb-8">Serving businesses across industries</p>
+			<div class="flex justify-center items-center space-x-8 opacity-60 text-sm">
+				<span class="text-gray-400">Healthcare</span>
+				<span class="text-gray-400">•</span>
+				<span class="text-gray-400">E-commerce</span>
+				<span class="text-gray-400">•</span>
+				<span class="text-gray-400">FinTech</span>
+				<span class="text-gray-400">•</span>
+				<span class="text-gray-400">SaaS</span>
+				<span class="text-gray-400">•</span>
+				<span class="text-gray-400">Manufacturing</span>
 			</div>
 		</div>
 	</div>

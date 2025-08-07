@@ -14,8 +14,8 @@
 		</h2>
 		
 		<p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-			Join 100+ successful businesses who've accelerated their growth with Kceva's cutting-edge digital solutions. 
-			Let's turn your vision into reality.
+			Transform your business with innovative AI and digital solutions designed to drive growth and efficiency. 
+			Let's discuss how we can help achieve your goals.
 		</p>
 		
 		<div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -31,17 +31,17 @@
 		
 		<!-- Value propositions -->
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-			<div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
+			<div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl hover:bg-white/20 transition-all duration-300 cursor-pointer">
 				<div class="text-3xl font-bold text-white mb-2">Free</div>
-				<div class="text-gray-300">Strategy Consultation</div>
+				<div class="text-gray-300">Initial Consultation</div>
 			</div>
-			<div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
-				<div class="text-3xl font-bold text-white mb-2">24h</div>
-				<div class="text-gray-300">Response Time</div>
+			<div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl hover:bg-white/20 transition-all duration-300 cursor-pointer">
+				<div class="text-3xl font-bold text-white mb-2">Fast</div>
+				<div class="text-gray-300">Project Delivery</div>
 			</div>
-			<div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
-				<div class="text-3xl font-bold text-white mb-2">100%</div>
-				<div class="text-gray-300">Satisfaction Guarantee</div>
+			<div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl hover:bg-white/20 transition-all duration-300 cursor-pointer">
+				<div class="text-3xl font-bold text-white mb-2">Custom</div>
+				<div class="text-gray-300">Tailored Solutions</div>
 			</div>
 		</div>
 		

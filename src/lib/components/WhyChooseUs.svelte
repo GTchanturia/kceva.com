@@ -63,30 +63,49 @@
 			
 			<!-- Right side - Stats -->
 			<div class="bg-white p-8 rounded-3xl shadow-xl">
-				<h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">Our Track Record</h3>
+				<h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">Our Approach</h3>
 				
-				<div class="grid grid-cols-2 gap-8">
-					<div class="text-center">
-						<div class="text-4xl font-bold text-blue-600 mb-2">100+</div>
-						<div class="text-gray-600">Projects Delivered</div>
+				<div class="space-y-6">
+					<div class="flex items-center p-4 bg-blue-50 rounded-xl">
+						<div class="bg-blue-500 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+							<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+							</svg>
+						</div>
+						<div>
+							<h4 class="font-bold text-gray-900">Innovation First</h4>
+							<p class="text-gray-600 text-sm">Latest AI and cloud technologies</p>
+						</div>
 					</div>
-					<div class="text-center">
-						<div class="text-4xl font-bold text-emerald-600 mb-2">99%</div>
-						<div class="text-gray-600">Client Satisfaction</div>
+					
+					<div class="flex items-center p-4 bg-emerald-50 rounded-xl">
+						<div class="bg-emerald-500 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+							<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+							</svg>
+						</div>
+						<div>
+							<h4 class="font-bold text-gray-900">Quality Focused</h4>
+							<p class="text-gray-600 text-sm">Rigorous testing and optimization</p>
+						</div>
 					</div>
-					<div class="text-center">
-						<div class="text-4xl font-bold text-violet-600 mb-2">5.0</div>
-						<div class="text-gray-600">Average Rating</div>
-					</div>
-					<div class="text-center">
-						<div class="text-4xl font-bold text-orange-600 mb-2">24/7</div>
-						<div class="text-gray-600">Support Available</div>
+					
+					<div class="flex items-center p-4 bg-violet-50 rounded-xl">
+						<div class="bg-violet-500 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+							<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+							</svg>
+						</div>
+						<div>
+							<h4 class="font-bold text-gray-900">Client Partnership</h4>
+							<p class="text-gray-600 text-sm">Long-term collaboration approach</p>
+						</div>
 					</div>
 				</div>
 				
 				<div class="mt-8 p-6 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl">
-					<h4 class="font-bold text-gray-900 mb-2">Latest Achievement</h4>
-					<p class="text-gray-600 text-sm">Successfully deployed AI-powered automation system that reduced client's operational costs by 45% while improving efficiency.</p>
+					<h4 class="font-bold text-gray-900 mb-2">Our Commitment</h4>
+					<p class="text-gray-600 text-sm">We focus on delivering measurable business value through innovative technology solutions tailored to your specific needs.</p>
 				</div>
 			</div>
 		</div>
