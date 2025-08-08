@@ -47,8 +47,8 @@
 		
 		<!-- Contact info -->
 		<div class="mt-12 text-gray-400">
-			<p class="mb-2">Questions? Call us at <a href="tel:+1234567890" class="text-white hover:text-blue-400 transition-colors">+1 (234) 567-8900</a></p>
-			<p>Or email <a href="mailto:hello@kceva.com" class="text-white hover:text-blue-400 transition-colors">hello@kceva.com</a></p>
+			<p class="mb-2">Questions? Call us at <a href="tel:+1555123456" class="text-white hover:text-blue-400 transition-colors">+1 (555) 123-456</a></p>
+			<p>Or email <a href="mailto:contact@kceva.com" class="text-white hover:text-blue-400 transition-colors">contact@kceva.com</a></p>
 		</div>
 	</div>
 </section>

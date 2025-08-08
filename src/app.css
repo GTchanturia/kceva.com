@@ -1,3 +1,62 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+/* Performance optimizations */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* Optimize font loading */
+body {
+	font-display: swap;
+}
+
+/* Improve image loading */
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+/* Critical CSS for above-the-fold content */
+.hero-section {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Optimize animations */
+.animate-pulse {
+	animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-bounce {
+	animation: bounce 1s infinite;
+}
+
+/* Lazy loading optimization */
+.lazy-load {
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.lazy-load.loaded {
+	opacity: 1;
+}

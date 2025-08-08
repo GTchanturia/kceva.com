@@ -4,24 +4,24 @@
 	let currentTestimonial = 0;
 	let testimonials = [
 		{
-			name: "Sarah Johnson",
-			role: "CTO, TechStart Inc",
-			content: "Kceva helped us implement AI-powered analytics that transformed our decision-making process. Their expertise in machine learning and cloud architecture is exceptional.",
-			initial: "S",
+			name: "Tech Startup Founder",
+			role: "CEO, SaaS Company",
+			content: "The AI integration transformed our customer support operations. Response times improved dramatically and customer satisfaction increased significantly.",
+			initial: "T",
 			color: "from-blue-500 to-cyan-600"
 		},
 		{
-			name: "Michael Chen",
-			role: "Founder, DataFlow Solutions",
-			content: "The custom e-commerce platform they built scaled perfectly with our growth. Their attention to performance and user experience made all the difference.",
-			initial: "M",
+			name: "E-commerce Business Owner",
+			role: "Founder, Online Retail",
+			content: "Our custom e-commerce platform exceeded expectations. The performance improvements and user experience enhancements drove substantial growth.",
+			initial: "E",
 			color: "from-emerald-500 to-teal-600"
 		},
 		{
-			name: "Lisa Rodriguez",
-			role: "VP Engineering, CloudTech",
-			content: "Their cloud migration strategy reduced our infrastructure costs by 40% while improving reliability. The DevOps automation they implemented is world-class.",
-			initial: "L",
+			name: "Manufacturing Executive",
+			role: "VP Operations, Manufacturing",
+			content: "The cloud migration strategy reduced our infrastructure costs while improving system reliability. The automation solutions streamlined our entire workflow.",
+			initial: "M",
 			color: "from-violet-500 to-purple-600"
 		}
 	];

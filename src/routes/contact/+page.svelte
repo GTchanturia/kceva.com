@@ -191,7 +191,7 @@
 							</div>
 							<div>
 								<h4 class="font-bold text-gray-900 mb-1">Phone</h4>
-								<p class="text-gray-600">+1 (234) 567-8900</p>
+								<p class="text-gray-600">+1 (555) 123-456</p>
 								<p class="text-sm text-gray-500">Mon-Fri 9AM-6PM EST</p>
 							</div>
 						</div>
@@ -204,7 +204,7 @@
 							</div>
 							<div>
 								<h4 class="font-bold text-gray-900 mb-1">Email</h4>
-								<p class="text-gray-600">hello@kceva.com</p>
+								<p class="text-gray-600">contact@kceva.com</p>
 								<p class="text-sm text-gray-500">We respond within 24 hours</p>
 							</div>
 						</div>
@@ -218,8 +218,8 @@
 							</div>
 							<div>
 								<h4 class="font-bold text-gray-900 mb-1">Office</h4>
-								<p class="text-gray-600">123 Innovation Drive<br>Tech City, TC 12345</p>
-								<p class="text-sm text-gray-500">By appointment only</p>
+								<p class="text-gray-600">Remote-First Company<br>Serving Clients Worldwide</p>
+								<p class="text-sm text-gray-500">Virtual consultations available</p>
 							</div>
 						</div>
 						
